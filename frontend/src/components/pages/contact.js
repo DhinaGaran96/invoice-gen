@@ -1,6 +1,6 @@
 import React from "react";
 import Navigationbar from "../layout/Navbar";
-import jana from "../images/king.png";
+
 
 import {
   Button,

@@ -164,7 +164,7 @@ function Home() {
               <button
                 type="button"
                 class="btn btn-danger float-end d-print-none"
-                onClick={() => setNoOfRows(0)}
+                onClick={() => (setNoOfRows(0)&&setAmount(0))}
               >
                 + New Bill
               </button>
