@@ -18,7 +18,7 @@ function Login() {
   const submit = async (e) => {
     e.preventDefault();
     try {
-      const loginUser = { email, password };
+      const loginUser = { email, password }; 
       //sending response
       const loginResponse = await axios.post(
         "https://invoice-generator-using-mern.herokuapp.com/users/login",
